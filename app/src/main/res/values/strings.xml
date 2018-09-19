@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SimplePay</string>
+    <string name="legg_til_vare">Legg til vare</string>
+    <string name="mine_varer">Mine Varer</string>
 </resources>

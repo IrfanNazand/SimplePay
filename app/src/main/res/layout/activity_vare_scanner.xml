@@ -9,10 +9,11 @@
 
     <SurfaceView
         android:id="@+id/cameraPreview"
-        android:layout_width="355dp"
-        android:layout_height="385dp"
+        android:layout_width="383dp"
+        android:layout_height="230dp"
         android:layout_centerInParent="true"
         android:layout_marginBottom="32dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
@@ -22,13 +23,13 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="385dp"
-        android:layout_height="137dp"
+        android:layout_height="154dp"
         android:gravity="center"
         android:text="@string/hva_skjer_her"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cameraPreview" />
 

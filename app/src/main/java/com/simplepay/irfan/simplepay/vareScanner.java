@@ -63,6 +63,7 @@ public class vareScanner extends AppCompatActivity {
             @Override
             public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
 
+                //cameraSource.start();
             }
 
             @Override

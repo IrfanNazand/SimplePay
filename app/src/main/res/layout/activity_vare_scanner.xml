@@ -7,15 +7,15 @@
     tools:context=".vareScanner">
 
 
-    <android.opengl.GLSurfaceView
+    <SurfaceView
         android:id="@+id/cameraPreview"
-        android:layout_width="383dp"
-        android:layout_height="397dp"
+        android:layout_width="355dp"
+        android:layout_height="385dp"
         android:layout_centerInParent="true"
         android:layout_marginBottom="32dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

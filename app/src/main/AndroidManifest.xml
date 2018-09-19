@@ -2,8 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.simplepay.irfan.simplepay">
 
-    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
-    <uses-permission-sdk-23 android:name="android.permission.VIBRATE"></uses-permission-sdk-23>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission-sdk-23 android:name="android.permission.VIBRATE"/>
+
 
     <application
         android:allowBackup="true"
@@ -19,10 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".vareScanner" />
-        <activity android:name=".mineVarer"></activity>
+        <activity android:name=".vareScanner"/>
+        <activity android:name=".mineVarer"/>
         <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
-            android:value="barcode"></meta-data>
+            android:value="barcode"/>
     </application>
 
 </manifest>

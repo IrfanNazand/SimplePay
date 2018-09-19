@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.simplepay.irfan.simplepay">
 
+    <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+    <uses-permission-sdk-23 android:name="android.permission.VIBRATE"></uses-permission-sdk-23>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,6 +21,8 @@
         </activity>
         <activity android:name=".vareScanner" />
         <activity android:name=".mineVarer"></activity>
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode"></meta-data>
     </application>
 
 </manifest>
